@@ -9,7 +9,7 @@ for i = 1:n
   endif
 endfor
 
-% Rótulos reais %
+% Definindo rótulos dos dados de teste para a comparação: %
 m = 150;
 for i = 1:m
   xnr(i,:) = rand(1,2)*6 - 3;
